@@ -9,6 +9,6 @@ The distributed app can be downloaded from the Play Store.
 
 https://play.google.com/store/apps/details?id=com.pricetable.coinsecure
 
-Contact me on the Coinsecure.in chat support channel or ping me on the forums.
+Contact me on benson.samuel@gmail.com or ping me on the forums.
 
 My Bitcoin address is: 19xoVisHumVprrAYK97mzDTZ5UTdQ1qDqN
