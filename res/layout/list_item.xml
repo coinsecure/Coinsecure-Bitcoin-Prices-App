@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+ 
+    <!-- title Label -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+ 
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal" >
+
+        <!-- buy label -->
+    <TextView
+        android:id="@+id/buylabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="35dip"
+        android:textStyle="bold"
+        android:text="BUY" />
+ 
+    <!-- sell label -->
+    <TextView
+        android:id="@+id/selllabel"
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="right"
+		android:textAlignment="gravity"
+		android:paddingRight="35dip"
+        android:text="SELL" />
+ 	</LinearLayout>
+ 	
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal" >
+    
+    <!-- buy label -->
+    <TextView
+        android:id="@+id/buy"
+         
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingLeft="15dip"
+        android:textStyle="bold" />
+ 
+    <!-- sell number label -->
+    <TextView
+        android:id="@+id/sell"
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="right"
+		android:textAlignment="gravity"
+		android:paddingRight="15dip" />
+ 	</LinearLayout>
+ 	
+
+</LinearLayout>
