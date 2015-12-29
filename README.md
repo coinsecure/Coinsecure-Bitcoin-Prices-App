@@ -1,4 +1,4 @@
-Coinsecure
+Coinsecure - THIS PROJECT IS NO LONGER BEING MAINTAINED
 ==========
 
 Coinsecure Android App to show Bitcoin prices in Indian Rupees.
